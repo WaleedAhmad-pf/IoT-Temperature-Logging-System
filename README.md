@@ -1,4 +1,4 @@
-# ESP32 DHT11 ThingSpeak Uploader
+# IoT Based Temperature Logging System
 
 This project uses an ESP32 microcontroller to read temperature and humidity data from a DHT11 sensor and send the data to ThingSpeak over WiFi. WiFiManager is used to simplify the WiFi and ThingSpeak configuration process via a browser portal.
 
