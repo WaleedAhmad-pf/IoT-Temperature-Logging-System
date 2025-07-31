@@ -75,10 +75,19 @@ This project uses an ESP32 microcontroller to read temperature and humidity data
 
 ### WiFiManager Configuration Portal
 
-This is the browser-based setup page that appears when the ESP32 starts in Access Point mode. Users can input their WiFi credentials along with the ThingSpeak API Key and Channel ID.
+The ESP32 starts in Access Point mode and opens a web-based configuration portal. Below are two screenshots showing the setup screens:
 
-![WiFiManager Portal](wifimanager-portal.png)
-![WiFi Credentials](wifimanager1-portal.png)
+**1. WiFi Credentials Page**
+
+This page allows you to select and connect to your home WiFi network.
+
+![WiFiManager Portal - WiFi Setup](images/wifimanager-portal.png)
+
+**2. Custom Parameters Input (API Key and Channel ID)**
+
+After selecting a network, you can enter your ThingSpeak API Key and Channel ID.
+
+![WiFiManager Portal - ThingSpeak Setup](images/wifimanager1-portal.png)
 
 ---
 
