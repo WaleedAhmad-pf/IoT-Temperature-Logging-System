@@ -122,6 +122,32 @@ The serial monitor shows the ESP32’s debug output, including connection status
 ![Serial Monitor Output](serial-monitor-output.png)
 ---
 
+## Future Improvements
+
+Here are some ideas to improve or expand the project in the future:
+
+- **Use DHT22 Sensor**: Upgrade from DHT11 to DHT22 for better accuracy and wider temperature/humidity range.
+- **Add OLED Display**: Show live temperature and humidity readings on a small OLED screen.
+- **Battery Power Support**: Make the system portable using a Li-ion battery with a charging module.
+- **Deep Sleep Mode**: Implement power-saving techniques to reduce energy consumption.
+- **Error Handling**: Add retries and status reporting in case of ThingSpeak upload failures.
+- **Web Dashboard**: Host a simple web server on the ESP32 to display sensor data locally.
+- **Secure API Handling**: Use encryption or obfuscation to protect the API key.
+
+---
+
+## Safety Notes
+
+Please keep the following in mind while building and using the circuit:
+
+- **Power Supply**: Always ensure the ESP32 is powered using a stable 3.3V source. Do not exceed voltage ratings.
+- **Heat Sensitivity**: Keep the DHT11 sensor away from heat sources for accurate readings.
+- **LED Current Limiting**: Always use a resistor (e.g., 220–330 ohm) in series with the LED to prevent damage.
+- **Short Circuits**: Double-check connections before powering the circuit to avoid shorts.
+- **Ventilation**: If the setup is enclosed, make sure there's enough airflow for accurate humidity readings.
+- **Water Contact**: Never expose the ESP32 or DHT11 to moisture or liquid without proper waterproof casing.
+
+
 ## License
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute it.
