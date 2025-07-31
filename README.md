@@ -103,7 +103,7 @@ This page allows you to select and connect to your home WiFi network.
 
 After selecting a network, you can enter your ThingSpeak API Key and Channel ID.
 
-![WiFiManager Portal - ThingSpeak Setup](wifimanager1-portal.png)
+![WiFiManager Portal - ThingSpeak Setup](wifimanager1-credentials.png)
 
 ---
 
