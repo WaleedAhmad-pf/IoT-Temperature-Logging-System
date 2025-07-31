@@ -160,6 +160,9 @@ This project is licensed under the MIT License. You are free to use, modify, and
 
 ---
 
-## Questions or Feedback?
+## Questions?
 
-If you have questions or feedback, feel free to open an issue or contact the project maintainer.
+For any queries or issues, feel free to:
+
+- Open an [issue on GitHub](https://github.com/WaleedAhmad-pf/IoT-Temperature-Logging-System/issues)
+- Or reach out via email: [youremail@example.com](mailto:waleed.khokhar.info@gmail.com)
