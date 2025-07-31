@@ -81,13 +81,13 @@ The ESP32 starts in Access Point mode and opens a web-based configuration portal
 
 This page allows you to select and connect to your home WiFi network.
 
-![WiFiManager Portal - WiFi Setup](images/wifimanager-portal.png)
+![WiFiManager Portal - WiFi Setup](wifimanager-portal.png)
 
 **2. Custom Parameters Input (API Key and Channel ID)**
 
 After selecting a network, you can enter your ThingSpeak API Key and Channel ID.
 
-![WiFiManager Portal - ThingSpeak Setup](images/wifimanager1-portal.png)
+![WiFiManager Portal - ThingSpeak Setup](wifimanager1-portal.png)
 
 ---
 
