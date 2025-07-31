@@ -55,6 +55,22 @@ This project uses an ESP32 microcontroller to read temperature and humidity data
 | VCC (Power)   | 3.3V      |
 | GND (Ground)  | GND       |
 
+### Getting Your ThingSpeak API Key and Channel ID
+
+1. Go to [https://thingspeak.com](https://thingspeak.com) and create a free account.
+2. Once logged in, click on **"Channels"** in the top navigation bar.
+3. Click **"New Channel"** and fill in the required details:
+   - Name your channel (e.g., "ESP32 Sensor Data")
+   - Enable at least **Field 1** and **Field 2** for temperature and humidity
+4. Click **"Save Channel"**
+
+#### Get Your Channel ID
+- After saving, your **Channel ID** will be shown at the top of the channel page.
+
+#### Get Your Write API Key
+- Go to the **"API Keys"** tab in your channel.
+- Copy the **Write API Key** — this is what your ESP32 uses to upload data.
+
 ### Setup Steps
 
 1. Install all required libraries in the Arduino IDE.
