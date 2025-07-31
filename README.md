@@ -87,6 +87,12 @@ This project uses an ESP32 microcontroller to read temperature and humidity data
 
 ---
 
+## Circuit Diagram
+
+Below is the wiring diagram for the project, showing the connections between the ESP32, DHT11 sensor, and status LED.
+
+![Circuit Diagram](esp32-dht11-led-diagram.png)
+
 ## Screenshots
 
 ### WiFiManager Configuration Portal
