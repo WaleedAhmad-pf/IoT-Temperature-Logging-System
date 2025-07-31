@@ -166,3 +166,4 @@ For any queries or issues, feel free to:
 
 - Open an [issue on GitHub](https://github.com/WaleedAhmad-pf/IoT-Temperature-Logging-System/issues)
 - Or reach out via email: [waleed.khokhar.info@gmail.com](mailto:waleed.khokhar.info@gmail.com)
+
