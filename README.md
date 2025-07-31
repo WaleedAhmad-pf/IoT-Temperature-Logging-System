@@ -71,16 +71,30 @@ This project uses an ESP32 microcontroller to read temperature and humidity data
 
 ---
 
-## Screenshots (Optional)
+## Screenshots
 
-### WiFiManager Captive Portal
+### WiFiManager Configuration Portal
 
-*Insert screenshot here (e.g., WiFiManager portal showing input fields for API Key and Channel ID)*
+This is the browser-based setup page that appears when the ESP32 starts in Access Point mode. Users can input their WiFi credentials along with the ThingSpeak API Key and Channel ID.
+
+![WiFiManager Portal](images/wifimanager-portal.png)
+![WiFi Credentials](images/wifimanager1-portal.png)
+
+---
 
 ### ThingSpeak Channel Output
 
-*Insert screenshot of ThingSpeak channel graph showing temperature and humidity readings*
+The ESP32 sends temperature and humidity data every 3 seconds. Below is a sample of the ThingSpeak dashboard showing real-time data visualization.
 
+![ThingSpeak Graph](images/thingspeak.png)
+
+---
+
+### Serial Monitor Output
+
+The serial monitor shows the ESP32’s debug output, including connection status, IP address, sensor readings, and HTTP response from ThingSpeak.
+
+![Serial Monitor Output](images/serial-monitor-output.png)
 ---
 
 ## License
